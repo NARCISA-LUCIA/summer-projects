@@ -5,8 +5,8 @@
   margin-top: 60px;
   margin-bottom: 60px;
   border: 1px solid #dedede;
-  border-color: rgba(NaN, 222, 222, 0.5);
 }
+
 .details-box-resume {
   display: flex;
   flex-direction: column;
@@ -88,8 +88,6 @@ img {
   margin-top: 40px;
   text-transform: uppercase;
   color: #565656;
-  font-weight: 500;
-  font-size: 20px;
 }
 
 mat-divider {
