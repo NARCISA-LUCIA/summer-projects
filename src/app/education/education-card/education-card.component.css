@@ -1,0 +1,30 @@
+
+::ng-deep .mat-vertical-stepper-content {
+    visibility: visible !important;
+    height: 100% !important;
+  }
+  
+  .step-card{
+      text-transform: uppercase;
+      color:#808080;
+      font-weight: 500;
+      font-size: 16px;
+  }
+
+  h3{
+     text-transform: uppercase; 
+     font-weight: 500;
+     font-size: 18px;
+     margin-bottom: 10px;
+     margin-top: 5px;
+     letter-spacing: 0.5px; 
+  }
+
+  .step{
+    color:#808080;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+ 
