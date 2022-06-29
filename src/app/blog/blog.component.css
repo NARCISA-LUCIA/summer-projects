@@ -1,0 +1,33 @@
+.blog-container {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 1px;
+  padding: 50px;
+}
+
+.both-containers {
+  display: flex;
+  gap: 20px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #565656;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+mat-divider {
+  background-color: #526afe;
+  width: 35px;
+  border-width: 3px;
+  margin-bottom: 50px;
+}
+
+.container-image-blog-shadow>:first-child{
+  /* border:1px solid red;*/
+
+    box-shadow:5px 5px 12px #ECECEC;
+}

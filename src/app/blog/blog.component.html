@@ -1,0 +1,35 @@
+<div class="blog-container">
+    <h3>Alex Smith<br>blog</h3>
+    <mat-divider></mat-divider>
+    <div class="both-containers">
+        <div class="left-blog-container">
+            <div *ngFor="let blogPost of leftSideBlogPosts">
+                <app-blog-card
+                imageUrl={{blogPost.imageUrl}}
+                title={{blogPost.title}}
+                header={{blogPost.header}}
+                text={{blogPost.text}}
+                button={{blogPost.button}}
+                CommentsIcon={{blogPost.CommentsIcon}}
+                NumberOfCommentsIcon={{blogPost.NumberOfCommentsIcon}}>
+                </app-blog-card>
+            </div>
+        </div>
+        <div class="right-blog-container" >
+            <div class="container-image-blog-shadow">
+                <div *ngFor="let blogPost of rightSideBlogPosts; let i = index">
+                    <app-blog-card
+                    imageUrl={{blogPost.imageUrl}}
+                    title={{blogPost.title}}
+                    header={{blogPost.header}}
+                    text={{blogPost.text}}
+                    button={{blogPost.button}}
+                    CommentsIcon={{blogPost.CommentsIcon}}
+                    NumberOfCommentsIcon={{blogPost.NumberOfCommentsIcon}}
+                    [isWhiteBackground] = isFirstElement(i)>
+                    </app-blog-card>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
