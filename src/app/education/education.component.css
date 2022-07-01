@@ -1,12 +1,8 @@
 .main-container {
   padding: 40px;
   background-color: white;
-  margin-top: 60px;
-  margin-bottom: 60px;
   border: 1px solid #dedede;
   border-color: rgba(NaN, 222, 222, 0.5);
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .head-container {
@@ -35,38 +31,39 @@ h1 {
 }
 
 .divider1 {
-  width: 45px;
+  width: 35px;
   background-color: #5468ff;
   padding: 1px;
   margin-top: -5px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 mat-divider {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 img {
-  width: 360px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
 }
 
 .text1 {
   color: #919191;
   margin-bottom: 20px;
   line-height: 1.6;
+  font-size: 10px;
 }
 
 .text {
   color: #6c6c6c;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
 }
 
 .address-container {
   display: flex;
-  column-gap: 50px;
+  column-gap: 40px;
 }
 .box-address {
   display: flex;
@@ -75,7 +72,7 @@ img {
 
 .address-line {
   color: #383838;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -103,12 +100,12 @@ img {
 }
 
 .progres-bar {
-  margin-bottom: 20px;
-  font-size: 14px;
+  margin-bottom: 15px;
+  font-size: 12px;
 }
 
 mat-progress-bar {
-  height: 7px;
+  height: 5px;
 }
 
 ::ng-deep.mat-progress-bar-fill::after {
@@ -117,7 +114,7 @@ mat-progress-bar {
 
 .box-approach {
   display: flex;
-  column-gap: 100px;
+  column-gap: 80px;
 }
 
 .approach-list {
@@ -140,13 +137,13 @@ mat-progress-bar {
 }
 
 .text-approach {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .long-text {
   line-height: 1.6;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 10px;
   color: #6c6c6c;
 }
 
@@ -156,7 +153,7 @@ mat-progress-bar {
 
 .expertise-box-left,
 .expertise-box-right {
-  margin-right: 100px;
+  margin-right: 10px;
   width: 400px;
   row-gap: 30px;
   display: flex;
@@ -170,20 +167,21 @@ mat-progress-bar {
 }
 
 .icons-expertise i {
-  padding-right: 30px;
+  padding-right: 25px;
   font-size: 40px;
   float: left;
+  color: #506bff;
 }
 
 .expertise-title {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #565656;
 }
 
 .text-expertise {
-  font-size: 13px;
+  font-size: 10px;
   color: #6c6c6c;
 }
 
@@ -210,10 +208,14 @@ span.material-icons {
 .text-hobbies {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 18px;
   color: #6c6c6c;
   font-weight: 400;
+  font-size: 12px;
   letter-spacing: 0.5px;
 }
 
+mat-vertical-stepper{
+  margin-top: -15px;
+}
 
