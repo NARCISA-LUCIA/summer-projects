@@ -48,14 +48,14 @@ img {
   height: 350px;
 }
 
-.text1 {
+.header-paragraph {
   color: #919191;
   margin-bottom: 20px;
   line-height: 1.6;
   font-size: 10px;
 }
 
-.text {
+.address-paragraph {
   color: #6c6c6c;
   font-size: 14px;
   line-height: 1.6;
@@ -160,8 +160,8 @@ mat-progress-bar {
   flex-direction: column;
 }
 
-.expertise-box-left-1,
-.expertise-box-right-2 {
+.expertise-box-left-inner,
+.expertise-box-right-inner {
   display: flex;
   flex-direction: column;
 }
