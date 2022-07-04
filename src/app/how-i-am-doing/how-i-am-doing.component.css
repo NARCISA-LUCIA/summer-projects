@@ -2,8 +2,6 @@
   width: 100%;
   padding: 20px;
   background-color: white;
-  margin-top: 60px;
-  margin-bottom: 60px;
   border: 1px solid #dedede;
 }
 
@@ -39,6 +37,7 @@ p {
 }
 .box-resume {
   display: flex;
+  justify-content: space-between;
 }
 .image-resume {
   display: flex;
@@ -166,7 +165,6 @@ mat-progress-bar {
 .expertise-box-row2 {
   display: flex;
   column-gap: 20px;
-  flex-wrap: wrap;
 }
 
 .expertise-box-row2 {
@@ -186,4 +184,9 @@ mat-progress-bar {
 
 .text-expertise {
   font-size: 12px;
+}
+
+.chemichal-research-box {
+  display: flex;
+  gap: 20px;
 }

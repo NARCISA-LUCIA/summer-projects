@@ -1,0 +1,26 @@
+.text-card-design {
+  font-size: 20px;
+  font-weight: 400;
+  color: #484848;
+  line-height: 1.2;
+}
+
+mat-divider.card-divider {
+  width: 75px;
+  margin-top: -8px;
+  margin-left: 20px;
+}
+
+.main-card-container {
+  max-width: 460px;
+  max-height: 800px;
+  background-image: url("../../../assets/background-grey.PNG");
+}
+
+.case-study {
+  padding-top: 10px;
+  color: #cfcfcf;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
