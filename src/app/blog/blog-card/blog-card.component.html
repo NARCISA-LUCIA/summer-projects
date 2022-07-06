@@ -1,0 +1,20 @@
+<mat-card class="container-image-blog"
+[ngStyle]=
+"isWhiteBackground ?{'background-color':'#FFFFFF'}:{'background-color':'#f1f2f7', 'box-shadow':'none'}">
+    <img mat-card-image src={{imageUrl}}>
+    <div class="text-blog">
+        <p class="title-blog">{{title}}</p>
+        <h4>{{header}}</h4>
+        <div class="paragraph-long" *ngFor="let paragraph of getSlicedText()"><p>{{paragraph}}</p></div>
+        <div class="bottom-button">
+            <button mat-raised-button color="primary">{{button}}</button>
+            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                <span class="material-icons">
+                    {{CommentsIcon}}
+                </span>
+                <span>{{NumberOfCommentsIcon}}</span>
+            </button>
+        </div>
+    </div>
+</mat-card>
+
