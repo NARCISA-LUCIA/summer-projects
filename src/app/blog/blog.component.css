@@ -1,9 +1,7 @@
 .blog-container {
   background-color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin-left: 1px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .both-containers {
@@ -26,6 +24,4 @@ mat-divider {
   margin-bottom: 50px;
 }
 
-.container-image-blog-shadow>:first-child{
-    box-shadow:5px 5px 12px #ECECEC;
-}
+

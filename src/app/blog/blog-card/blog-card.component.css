@@ -1,5 +1,6 @@
 .title-blog {
   color: #6c6c6c;
+  font-size:10px;
 }
 
 .text-blog {
@@ -8,7 +9,7 @@
 
 h4 {
   color: #565656;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 h5 {
@@ -17,21 +18,22 @@ h5 {
 }
 
 .paragraph-long {
-  color: #acacac;
-  letter-spacing: 0.1px;
+    color: #6c6c6c;
+  letter-spacing: 0.2px;
   line-height: 1.6;
+  font-size: 9px;
 }
 
 .container-image-blog {
-  width: 490px;
+  /*width: 490px;*/
   margin-bottom: 20px;
 }
 
 button.mat-raised-button {
-  width: 120px;
-  height: 40px;
-  font-size: 14px;
-  font-weight: 500;
+  width: 90px;
+  height: 35px;
+  font-size: 12px;
+  font-weight: 400;
   background-color: #526afe;
 }
 
@@ -47,7 +49,7 @@ button.mat-raised-button {
 
 span {
   padding-right: 5px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 0.5;
 }
